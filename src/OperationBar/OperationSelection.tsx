@@ -137,7 +137,7 @@ export function OperationSelection() {
             ]}
             onPress={() => setSelectedOperationGroup("adjust")}
           >
-            <Icon iconID="tune" text="Adjust" />
+            <Icon iconID="tune" text="Ajustar" />
           </TouchableOpacity>
         </View>
       ) : null}

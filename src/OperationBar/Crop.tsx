@@ -14,11 +14,11 @@ export function Crop() {
     <View style={styles.container}>
       <IconButton
         iconID="close"
-        text="Cancel"
+        text="Cancelar"
         onPress={() => setEditingMode("operation-select")}
       />
       <Text style={styles.prompt}>Adjust window to crop</Text>
-      <IconButton iconID="check" text="Done" onPress={onPerformCrop} />
+      <IconButton iconID="check" text="Feito" onPress={onPerformCrop} />
     </View>
   );
 }

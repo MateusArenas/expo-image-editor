@@ -363,7 +363,7 @@ export function Blur() {
         />
       </View>
       <View style={styles.row}>
-        <IconButton iconID="close" text="Cancel" onPress={() => onClose()} />
+        <IconButton iconID="close" text="Cancelar" onPress={() => onClose()} />
         <Text style={styles.prompt}>
           Blur Radius: {Math.round(sliderValue)}
         </Text>
