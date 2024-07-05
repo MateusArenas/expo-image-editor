@@ -111,7 +111,7 @@ function EditingWindow() {
               {
                 height: 1,
                 width: 1,
-                backgroundColor: "#ccc",
+                // backgroundColor: "#ccc",
                 transform: [{ scaleY: -1 }],
               },
               getGLLayout(),
