@@ -126,7 +126,7 @@ export function OperationSelection() {
             ]}
             onPress={() => setSelectedOperationGroup("transform")}
           >
-            <Icon iconID="transform" text="Transform" />
+            <Icon iconID="transform" text="Transformar" />
           </TouchableOpacity>
           <TouchableOpacity
             style={[

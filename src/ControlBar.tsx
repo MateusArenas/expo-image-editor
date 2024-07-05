@@ -62,7 +62,7 @@ function ControlBar() {
       <IconButton iconID="arrow-back" text="Voltar" onPress={onPressBack} />
       <IconButton
         iconID="done"
-        text="Concluído"
+        text="Concluir"
         onPress={onFinishEditing}
         disabled={shouldDisableDoneButton}
       />
