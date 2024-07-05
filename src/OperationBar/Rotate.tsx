@@ -86,7 +86,7 @@ export function Rotate() {
       </View>
       <View style={styles.row}>
         <IconButton iconID="close" text="Cancelar" onPress={() => onClose()} />
-        <Text style={styles.prompt}>Rotate</Text>
+        <Text style={styles.prompt}>Girar</Text>
         <IconButton
           iconID="check"
           text="Concluir"
