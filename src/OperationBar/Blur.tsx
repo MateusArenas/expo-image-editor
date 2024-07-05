@@ -369,7 +369,7 @@ export function Blur() {
         </Text>
         <IconButton
           iconID="check"
-          text="Done"
+          text="Concluir"
           onPress={() => onSaveWithBlur()}
         />
       </View>

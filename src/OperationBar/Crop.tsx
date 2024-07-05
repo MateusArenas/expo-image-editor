@@ -18,7 +18,7 @@ export function Crop() {
         onPress={() => setEditingMode("operation-select")}
       />
       <Text style={styles.prompt}>Adjust window to crop</Text>
-      <IconButton iconID="check" text="Feito" onPress={onPerformCrop} />
+      <IconButton iconID="check" text="Concluir" onPress={onPerformCrop} />
     </View>
   );
 }

@@ -89,7 +89,7 @@ export function Rotate() {
         <Text style={styles.prompt}>Rotate</Text>
         <IconButton
           iconID="check"
-          text="Done"
+          text="Concluir"
           onPress={() => setEditingMode("operation-select")}
         />
       </View>
