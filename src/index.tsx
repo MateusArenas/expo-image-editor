@@ -48,6 +48,7 @@ export type AdjustmentOperations = "blur";
 export type EditingOperations = TransformOperations | AdjustmentOperations;
 
 export interface ImageEditorProps {
+  style?: any;
   visible: boolean;
   onCloseEditor: () => void;
   imageUri: string | undefined;
@@ -176,7 +177,7 @@ export function ImageEditorView(props: ImageEditorProps) {
   return (
     <>
       {ready ? (
-        <View style={styles.container}>
+        <View style={[styles.container, props?.style]}>
           <ControlBar />
           <EditingWindow />
           {mode === "full" && <OperationBar />}
